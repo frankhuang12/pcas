@@ -21,6 +21,12 @@ define(['jquery', 'functions'], function($, f) {
         })
     }
 
+    function editDescription() {
+        $('.edit-profile-description-button').on('click', function() {
+            $('#profile-description').removeAttr('disabled');
+        });
+    }
+
     return {
         edit_profile: edit_profile(),
         delete_credentials: delete_credentials(),

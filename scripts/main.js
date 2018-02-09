@@ -10,7 +10,7 @@ require.config({
     }
 });
 
-require(['jquery', 'bootstrap', 'profile', 'users', 'my_posts', 'applications', 'message'], function($, b, profile, users, my_posts, applications, message) {
+require(['jquery', 'bootstrap', 'profile', 'users', 'my_posts', 'applications', 'message', 'edit-profile'], function($, b, profile, users, myPosts, applications, message, editProfile) {
     // the modules' return statement is enough to invoke the methods inside, so you don't have to call the function as seen below
 
     //profile.edit_profile;
