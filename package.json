@@ -1,0 +1,19 @@
+{
+  "name": "pcas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACIT4900/pcas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ACIT4900/pcas/issues"
+  },
+  "homepage": "https://github.com/ACIT4900/pcas#readme"
+}
