@@ -1,19 +1,22 @@
 {
-  "name": "pcas",
+  "name": "pacs_project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ACIT4900/pcas.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ACIT4900/pcas/issues"
-  },
-  "homepage": "https://github.com/ACIT4900/pcas#readme"
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jquery": "^3.3.1",
+    "path": "^0.12.7",
+    "pg": "^7.4.1",
+    "pug": "^2.0.0-rc.4",
+    "socket.io": "^2.0.4"
+  }
 }
