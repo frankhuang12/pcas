@@ -1,4 +1,8 @@
 define(['jquery', 'functions'], function($, f) {
+    
+});
+
+/* $(document).ready(function() {
     $.ajax({
         method: 'GET',
         url: '/get/user-profile-description',
@@ -6,4 +10,4 @@ define(['jquery', 'functions'], function($, f) {
             // populate inputs with data
         }
     });
-});
+}); */

@@ -1,6 +1,6 @@
 require.config({
     paths: {
-        "jquery": "https://code.jquery.com/jquery-3.2.1.slim.min",
+        "jquery": "jquery-3.3.1.min",
         "bootstrap": "bootstrap.bundle.min"
     },
     shim: {
