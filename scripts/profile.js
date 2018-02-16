@@ -2,7 +2,7 @@ define(['jquery', 'functions'], function($, f) {
     // when user clicks edit, redirect them to the edit profile page
     function edit_profile() {
         $('#edit-profile-button').on('click', function() {
-            location.href = './edit-profile.html';
+            location.href = '/edit-profile';
         });
     }
 
