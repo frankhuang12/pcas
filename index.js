@@ -22,6 +22,10 @@ var pool = new pg.Pool({
     port: process.env.DB_PORT
 });
 
+// Initializing PUG template
+app.set('view engine', 'pug');
+app.set('views', ['templates', 'templates/inc', 'templates/blocks']);
+
 // Sessions setup
 app.use(session({
     secret: process.env.SESSION_SECRET,
@@ -38,7 +42,7 @@ app.use('/fonts', express.static('fonts'));
 // Routes
 // Get pages
 app.get("/", function (req, resp) {
-    resp.sendFile(pF + "/index.html");
+    resp.render('index');
 });
 
 app.get('/profile', function(req, resp) {
